@@ -1,12 +1,12 @@
 #include<bits/stdc++.h>
-#include<conio.h> // key press kbhit
+#include<conio.h> 
 #include<windows.h>
 
 using namespace std;
 
 #define MAX_LENGTH 1000
 
-//Directions
+
 const char DIR_UP = 'U';
 const char DIR_DOWN = 'D';
 const char DIR_LEFT = 'L';
@@ -74,7 +74,7 @@ public:
 
     bool move(Point food){
 
-        for(int i= length-1;i>0;i--)  // lenght = 4
+        for(int i= length-1;i>0;i--)  
         {
             body[i] = body[i-1];
         }
